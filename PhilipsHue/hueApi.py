@@ -6,6 +6,24 @@ import colorsys
 from hue_api import HueApi
 api = HueApi()
 
+def hsv2rgb(h,s,v):
+    return tuple(round(i * 255) for i in colorsys.hsv_to_rgb(h,s,v))
+
+def closest_color(requested_color):
+    # import ipdb;ipdb.set_trace()
+    try:
+        closest_color = webcolors.rgb_to_name(requested_color)
+    except:
+        min_colors = {}
+        for hex_val, color in webcolors.CSS3_HEX_TO_NAMES.items():
+            r_c, g_c, b_c = webcolors.hex_to_rgb(hex_val)
+            rd = (r_c - requested_color[0]) ** 2
+            gd = (g_c - requested_color[1]) ** 2
+            bd = (b_c - requested_color[2]) ** 2
+            min_colors[(rd + gd + bd)] = color
+        closest_color = min_colors[min(min_colors.keys())]
+    return closest_color
+
 BRIDGE_IP = "192.168.50.67"
 
 try:
@@ -14,6 +32,8 @@ except:
     api.create_new_user(BRIDGE_IP)
     api.save_api_key("user_cache")
     api.load_existing("user_cache")
+
+
 
 # Kitchen
 # Dining
@@ -79,24 +99,10 @@ nameToIndices = {groupObject.name: [light.id for light in groupObject.lights] fo
 
 # api.set_color("#00FF00", indices=nameToIndices["Downstairs"])
 
-def hsv2rgb(h,s,v):
-    return tuple(round(i * 255) for i in colorsys.hsv_to_rgb(h,s,v))
+group = "Go Light"
 
-def closest_color(requested_color):
-    # import ipdb;ipdb.set_trace()
-    try:
-        closest_color = webcolors.rgb_to_name(requested_color)
-    except:
-        min_colors = {}
-        for hex_val, color in webcolors.CSS3_HEX_TO_NAMES.items():
-            r_c, g_c, b_c = webcolors.hex_to_rgb(hex_val)
-            rd = (r_c - requested_color[0]) ** 2
-            gd = (g_c - requested_color[1]) ** 2
-            bd = (b_c - requested_color[2]) ** 2
-            min_colors[(rd + gd + bd)] = color
-        closest_color = min_colors[min(min_colors.keys())]
-    return closest_color
 
+api.turn_on(indices=nameToIndices[group])
 
 hue = 0
 prev_color = ""
@@ -110,7 +116,7 @@ while True:
     color = closest_color(rgb)
 
     if (prev_color != color):
-        api.set_color(color, indices=nameToIndices["Downstairs"])
+        api.set_color(color, indices=nameToIndices[group])
         prev_color = color
 
     print(hue, rgb, color)
