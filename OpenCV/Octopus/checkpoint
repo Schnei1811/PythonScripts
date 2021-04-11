@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Stefan\\Dropbox\\PythonScripts\\PythonScripts\\opencv\\Octopus\\0.0001-VGG16.model"
+all_model_checkpoint_paths: "C:\\Users\\Stefan\\Dropbox\\PythonScripts\\PythonScripts\\opencv\\Octopus\\0.0001-VGG16.model"

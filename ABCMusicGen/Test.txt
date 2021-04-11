@@ -1,0 +1,22 @@
+X: 1
+T: Drums
+M: 4/4
+Q: 160
+K: Cmaj
+
++p+ E,3/2 z/ E,3/2 z/ E,3/2 z/ E,/ E,/ E,/ z/ | E,3/2 z/ +mp+ E,3/2 z/ E,3/2 z/ E,/ E,/ E,/ z/ | E,3/2 z/ E,3/2 z/ E,3/2 z/ E,/ E,/ E,/ z/ | E,3/2 z/ E,3/2 z/ E,3/2 z/ +mf+ E,/ E,/ E,/ z/ | E,3/2 z/ E,3/2 z/ E,3/2 z/ E,/ E,/ E,/ z/ | E,3/2 z/ E,/ E,/ E,/ z/ E,3/2 z/ E,/ z/ E,/ z/ | E,3/2 z/ E,3/2 z/ E,3/2 z/ E,/ E,/ E,/ z/ | E,3/2 z/ E,/ E,/ E,/ z/ E,3/2 z/ E,/ z/ E,/ z/ | E,3/2 z/ E,3/2 z/ E,3/2 z/ E,/ E,/ E,/ z/ | E,3/2 z/ E,/ E,/ E,/ z/ E,3/2 z/ E,/ z/ E,/ z/ | E,3/2 z/ E,3/2 z/ E,3/2 z/ E,/ E,/ E,/ z/ | E,3/2 z/ E,/ E,/ E,/ z/ E,3/2 z/ E,/ z/ E,/ z/ | E,3/2 z/ E,3/2 z/ E,3/2 z/ E,/
+
+X: 2
+T: Theorbo
+
+ +fff+ z8 | z8 | z8 | z8 | ^G,3/2 z/ G,3/2 z/ G,3/2 z/ G,/ G,/ G,/ z/ | ^G,3/2 z/ G,/ G,/ G,/ z/ G,3/2 z/ G,/ z/ G,/ z/ | ^D,3/2 z/ D,3/2 z/ D,3/2 z/ D,/ D,/ D,/ z/ | ^D,3/2 z/ D,/ D,/ D,/ z/ D,3/2 z/ D,/ z/ D,/ z/ | ^G,3/2 z/ G,3/2 z/ G,3/2 z/ G,/ G,/ G,/ z/ | ^G,3/2 z/ G,/ G,/ G,/ z/ G,3/2 z/ G,/ z/ G,/ z/ | ^D,3/2 z/ D,3/2 z/ D,3/2 z/ D,/ D,/ D,/ z/ | ^D,3/2 z/ D,/ D,/ D,/ z/ D,3/2 z/ D,/ z/ D,/ z/ | B,3/2 z/ B,3/2 z/ B,3/2 z/ B,/ B,/ B,/ z/ | B,3/2 z/ B,/ B,/ B,/ z/ B,3/2 z/ B,/ z/ B,/ z/ | ^F,3/2 z/ F,3/2 z/ F,3/2 z/ F,/ F,/ F,/ z/ | ^F,3/2 z/ F,/ F,/ F,/ z/ F,3/2 z/ F,/ z/
+
+X: 3
+T: Lute of Ages
+
+ +f+ z2 F z8 A c2 | c ^g/ d f z/ | +ff+ | c' d a3 b2- b2 | b4- b4 z/ ^a/ g2 | a | ^a4 d2 f ^d6 ^g/ z/ d z/ | | z2 ^d/ d2 b2- b2 | b6 A2 z/ d2 z/ g ^a4 ^d4- ^d4 a3 b/ a ^c/ z/ | ^d/ z/ ^f/ | a d4- d4 ^d6 ^c/ d b/ z/ | f2- f2 | ^f6 b/ z/ d z/ | ^g8- ^g8 ^g6 d2 c ^a/ z/ A ^g8- ^g8 f2 g | a2 z/ | f a2 ^d/ z/ b2- b2 d2 f g- g g z/ c'2- c'2 | d4- d4 | d2 ^g/ c' a3 c'2 | a- a ^d/ z/ a/ g/ f3 d2 ^a/ z/ ^g/ g2 a g2 | | ^d6 b/ z/ f4- f4 | z4 z/ ^f/ z/ d2- d2
+
+X: 4
+T: Clarinet
+
+ +ff+ z8 | z8 | z8 | z8 | z8 | z4 | a/ | z c' z8 | | | | | z8 | | | z8 | z8 d/ z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 g/ a/ | z4 ^F4 | z8 ^d4 z8 ^c8- ^c8 ^c8 z8 | z8 | B4 ^d4 d/ ^c8- ^c8 f | z4 ^G4 z8 ^d4 z8 | z8 | ^f8 | ^g6 g/ z8 g z8 | z8 g | | z8 | z8 | z8 B8 z8 ^d4 z8 | ^G8- ^G8 z8 | ^c8 | g/ ^c4 | z | ^A8 | ^d8 | ^f4 ^d4 | z8 | B4 | ^d2 | z4 ^G4- ^G4

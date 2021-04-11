@@ -1,0 +1,22 @@
+X: 1
+T: Drums
+M: 4/4
+Q: 120
+K: Cmaj
+
++mf+ C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,- C, [=C,/-^C,/] [=C,/^C,/] =C,/- =C,/ [=C,/^C,/] =C,/ C, C,/ C,- C, [=C,/^C,/] | C,- C, [=C,/^C,/] =C,- =C, [=C,/^C,/] =C,/ C, C,/ C, E,/ E,/ | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2 C,2 E,2 | C,2 E,2
+
+X: 2
+T: Theorbo
+
++f+ G, G,/ G,/ G, G, E, E, E, E, | A, A, A, B, C, C/ C/ B, B, | G, G, G, A, B, B, B, B, | B, B,/ B,/ B, B, B,/ B, B,/ B, B, | E, E, E, E, B, B, B, B, | A, A, A, A, C, C, C, C, | G, G, G, G, E, E, E, E, | A, A,/ A,/ A, A, D, D D, D | G, G,/ G,/ G, G, E, E, E, E, | A, A, A, B, C, C/ C/ B, B, | G, G, G, A, B, B, B, B, | B, B,/ B,/ B, B, B,/ B, B,/ B, B, | E, E, E, E, B, B, B, B, | A, A, B, B, E, E, E, E, | A, A, A, A, D, D, D, D, | G, G, G, G, G,
+
+X: 3
+T: Lute of Ages
+
++f+ d3 e g2 e g | a3/2 b/ a g e2 d e | g2 a b d e/ d/ b a | b8 | e3 d b2 a g | a3 g e2 e g | a3 b a g e d/ e/ | g3 z z4 | d3 e g2 e g | a3/2 b/ a g e2 d e | g2 a b d e/ d/ b a | b8 | e3 d b2 a g | a3 g e2 e g | a3 b a g e d/ e/ | g3 z z4 | e g/ g/ e/ g/ e/ d/ e/ e/ d e g/ a/ | b/ b/ a/ b/ g a/ g/ e/ e/ g/ b/ d z | e3 d b2 a g | a3/2 b/ a g e2 B d | e3 b a g e d/ e/ | g8
+
+X: 4
+T: Clarinet
+
++f+ d3 e g2 e g | a3/2 b/ a g e2 d e | g2 a b d e/ d/ b a | z2 [d/a/] [e/b/] [d/a/] [^f/b/] [d4a4] | e3 d b2 a g | a3 g e2 e g | a3 b a g e d/ e/ | g3 z z4 | d3 e g2 e g | a3/2 b/ a g e2 d e | g2 a b d e/ d/ b a | z2 [d/a/] [e/b/] [d/a/] [^f/b/] [d4a4] | e3 d b2 a g | a3 g e2 e g | a3 b a g e d/ e/ | g2 [e/g/] [g/b/] [d/a/] [e/b/] [g/b/] [gb] [d/g/] [gb] [^fb] | [eg] g/ g/ e/ g/ e/ d/ e/ e/ d e g/ a/ | b/ b/ a/ b/ g a/ g/ e/ e/ g/ b/ d z | e3 d b2 a g | a3/2
